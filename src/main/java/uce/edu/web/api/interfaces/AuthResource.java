@@ -11,9 +11,9 @@ import jakarta.ws.rs.QueryParam;
 import jakarta.ws.rs.core.MediaType;
 import jakarta.ws.rs.WebApplicationException;
 import jakarta.ws.rs.core.Response;
-import uce.edu.web.api.domain.Usuario; // Asegúrate que esta sea la ruta de tu entidad
+import uce.edu.web.api.domain.Usuario; 
 
-@Path("/auth") // <--- ESTO FALTA: Ahora la ruta será /matricula/api/v1.0/auth/token
+@Path("auth") 
 public class AuthResource {
     
     @GET
